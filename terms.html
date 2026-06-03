@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Condiciones del Servicio — Virtual Fortuna</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: #0d0618;
+      color: #e8e0f0;
+      min-height: 100vh;
+      padding: 40px 20px;
+    }
+    .container { max-width: 760px; margin: 0 auto; }
+    header {
+      text-align: center;
+      padding: 40px 0 48px;
+      border-bottom: 1px solid #2a1a4a;
+      margin-bottom: 48px;
+    }
+    .logo { font-size: 36px; margin-bottom: 12px; }
+    h1 { font-size: 28px; font-weight: 700; color: #d4a017; margin-bottom: 8px; }
+    .subtitle { color: #9070b0; font-size: 14px; }
+    .updated {
+      display: inline-block;
+      background: #1a0a2e;
+      border: 1px solid #2a1a4a;
+      color: #9070b0;
+      font-size: 13px;
+      padding: 6px 16px;
+      border-radius: 20px;
+      margin-top: 16px;
+    }
+    section {
+      margin-bottom: 40px;
+      background: #130920;
+      border: 1px solid #2a1a4a;
+      border-radius: 12px;
+      padding: 28px 32px;
+    }
+    h2 {
+      font-size: 17px;
+      font-weight: 600;
+      color: #d4a017;
+      margin-bottom: 16px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    h2 .num {
+      background: #d4a017;
+      color: #0d0618;
+      font-size: 12px;
+      font-weight: 700;
+      width: 24px;
+      height: 24px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    p { color: #c8b8d8; line-height: 1.7; font-size: 15px; margin-bottom: 12px; }
+    p:last-child { margin-bottom: 0; }
+    ul { list-style: none; margin-top: 8px; }
+    ul li {
+      color: #c8b8d8;
+      font-size: 15px;
+      line-height: 1.7;
+      padding: 6px 0 6px 24px;
+      position: relative;
+      border-bottom: 1px solid #1e0e34;
+    }
+    ul li:last-child { border-bottom: none; }
+    ul li::before { content: '·'; position: absolute; left: 6px; color: #d4a017; font-weight: 700; }
+    .highlight {
+      background: #1e0e34;
+      border-left: 3px solid #d4a017;
+      padding: 14px 18px;
+      border-radius: 0 8px 8px 0;
+      margin-top: 12px;
+      font-size: 14px;
+      color: #d4a017;
+      font-weight: 500;
+    }
+    .warning {
+      background: #1e0e34;
+      border-left: 3px solid #c0392b;
+      padding: 14px 18px;
+      border-radius: 0 8px 8px 0;
+      margin-top: 12px;
+      font-size: 14px;
+      color: #e07060;
+    }
+    footer {
+      text-align: center;
+      padding: 32px 0 16px;
+      color: #5a4a7a;
+      font-size: 13px;
+      border-top: 1px solid #2a1a4a;
+      margin-top: 8px;
+    }
+    footer a { color: #d4a017; text-decoration: none; }
+    .nav { text-align: center; margin-bottom: 32px; }
+    .nav a {
+      display: inline-block;
+      padding: 8px 20px;
+      background: #1a0a2e;
+      border: 1px solid #2a1a4a;
+      border-radius: 6px;
+      color: #9070b0;
+      text-decoration: none;
+      font-size: 13px;
+      margin: 0 4px;
+    }
+    .nav a.active { border-color: #d4a017; color: #d4a017; }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <header>
+    <div class="logo">🎰</div>
+    <h1>Virtual Fortuna</h1>
+    <p class="subtitle">Bot de Casino para Discord</p>
+    <div class="updated">Última actualización: junio de 2026</div>
+  </header>
+
+  <div class="nav">
+    <a href="privacy.html">Política de Privacidad</a>
+    <a href="terms.html" class="active">Condiciones del Servicio</a>
+  </div>
+
+  <h1 style="font-size:22px; margin-bottom:32px; color:#e8e0f0;">Condiciones del Servicio</h1>
+
+  <section>
+    <h2><span class="num">1</span> Aceptación de los términos</h2>
+    <p>Al utilizar Virtual Fortuna ("el Bot"), aceptas quedar vinculado por estas Condiciones del Servicio. Si no estás de acuerdo con alguno de los términos, no utilices el Bot.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span> Descripción del servicio</h2>
+    <p>Virtual Fortuna es un bot de entretenimiento para Discord que ofrece juegos de casino simulados con moneda virtual.</p>
+    <div class="highlight">Todos los juegos utilizan moneda ficticia sin ningún valor económico real. Virtual Fortuna no es una plataforma de juego real y no implica dinero real bajo ninguna circunstancia.</div>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span> Elegibilidad</h2>
+    <p>Para usar el Bot debes:</p>
+    <ul>
+      <li>Cumplir con los Términos de Servicio de Discord</li>
+      <li>Tener al menos 13 años de edad (o la edad mínima requerida en tu país para usar Discord)</li>
+      <li>No haber sido prohibido previamente de usar el Bot por el desarrollador</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">4</span> Moneda virtual</h2>
+    <ul>
+      <li>Toda la moneda y los objetos del Bot son virtuales y no tienen valor monetario real</li>
+      <li>No es posible canjear, vender ni transferir la moneda virtual fuera del Bot</li>
+      <li>El desarrollador se reserva el derecho de modificar, restablecer o eliminar la moneda y objetos virtuales en cualquier momento</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">5</span> Conducta del usuario</h2>
+    <p>Los usuarios se comprometen a no:</p>
+    <ul>
+      <li>Usar exploits, bugs o métodos no autorizados para obtener ventajas en el juego</li>
+      <li>Acosar, amenazar o intimidar a otros usuarios a través del Bot</li>
+      <li>Intentar acceder de forma no autorizada a la base de datos o infraestructura del Bot</li>
+      <li>Usar el Bot para actividades que violen los Términos de Servicio de Discord</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2><span class="num">6</span> Donaciones</h2>
+    <p>Las donaciones realizadas al desarrollador son completamente voluntarias.</p>
+    <div class="warning">Las donaciones no garantizan ninguna ventaja en el juego, beneficios especiales ni compensaciones de ningún tipo. Las donaciones no son reembolsables.</div>
+  </section>
+
+  <section>
+    <h2><span class="num">7</span> Disponibilidad del servicio</h2>
+    <p>El Bot se ofrece "tal cual". El desarrollador no garantiza disponibilidad ininterrumpida y se reserva el derecho de modificar, suspender o discontinuar el Bot en cualquier momento sin previo aviso.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">8</span> Limitación de responsabilidad</h2>
+    <p>Virtual Fortuna es un servicio de entretenimiento gratuito. El desarrollador no será responsable de ningún daño derivado del uso o la imposibilidad de uso del Bot.</p>
+    <div class="highlight">En ningún caso la responsabilidad del desarrollador excederá 0€, dado que el servicio es completamente gratuito.</div>
+  </section>
+
+  <section>
+    <h2><span class="num">9</span> Modificaciones</h2>
+    <p>El desarrollador se reserva el derecho de modificar estas Condiciones en cualquier momento. El uso continuado del Bot tras la publicación de cambios implica la aceptación de los nuevos términos.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">10</span> Contacto</h2>
+    <p>Para cualquier consulta sobre estas Condiciones, contacta al desarrollador a través de Discord.</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Virtual Fortuna · <a href="privacy.html">Política de Privacidad</a> · Bot de entretenimiento para Discord</p>
+  </footer>
+
+</div>
+</body>
+</html>
